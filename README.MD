@@ -39,6 +39,7 @@ The BMP280 is a barometric pressure sensor that can be used to measure atmospher
 2. Open folder in VS Code with STM32 add-on loaded
 3. Build project using "Build" button
 ![build button](image.png)
+
 4. Upload binary from build directory to controller usint STM32CubeProgrammer
 
 
