@@ -30,8 +30,8 @@ The BMP280 is a barometric pressure sensor that can be used to measure atmospher
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/BMP280TEST.git
-    cd BMP280TEST
+    git clone https://github.com/eduarddlabal/stm32_bmp280
+    cd stm32_bmp280
     ```
 
 2. Open the project in STM32CubeMX and generate the code.
