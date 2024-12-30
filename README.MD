@@ -19,10 +19,13 @@ The BMP280 is a barometric pressure sensor that can be used to measure atmospher
 - STM32F103C8T6 "BluePill" microcontroller
 - BMP280 sensor module
 - LCD display with I2C
+- USB-UART adapter / ST-Link v2
 
 ## Software Requirements
 
 - STM32CubeMX
+- STM32CubeProgrammer
+- VSCode with STM32 add-on
 - CMake
 - GCC ARM toolchain
 
@@ -33,16 +36,11 @@ The BMP280 is a barometric pressure sensor that can be used to measure atmospher
     git clone https://github.com/eduarddlabal/stm32_bmp280
     cd stm32_bmp280
     ```
+2. Open folder in VS Code with STM32 add-on loaded
+3. Build project using "Build" button
+![build button](image.png)
+4. Upload binary from build directory to controller usint STM32CubeProgrammer
 
-2. Open the project in STM32CubeMX and generate the code.
-
-3. Build the project using CMake:
-    ```sh
-    mkdir build
-    cd build
-    cmake ..
-    make
-    ```
 
 
 ## References
