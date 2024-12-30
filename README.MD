@@ -1,4 +1,4 @@
-# BMP280TEST Project
+# STM32_BMP280 Project
 
 This project demonstrates the usage of the BMP280 sensor with an STM32 microcontroller. The project is configured using STM32CubeMX and built with CMake.
 
